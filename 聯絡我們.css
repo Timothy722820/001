@@ -1,0 +1,92 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html {
+    /* font-size: 16px;  */
+scroll-behavior: smooth;}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12vw;
+    width: 100%;
+    padding: 0px;
+    background: linear-gradient(to right, red, white, red);
+  }
+   h2{
+    display: flex;
+    justify-content: center;
+    font-size: 6vw;
+    color: blue;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  .lang a {
+    text-decoration: none;
+  }
+  .lang li {font-size: 2vw;
+    text-decoration: none;
+  }
+  
+  .fa-dolly {
+    font-size: 5vw;
+    color: cyan;
+  }
+  .page-alt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  width: 100%;
+    padding: 0 5vw;
+    height: 10vw;
+    border-top: 2px solid yellow;
+    background: linear-gradient(to right, white, lightgreen, white);
+  }
+  .btn {
+    background-color: yellow;
+    font-size: 3vw;
+    border: 2px solid green;
+    border-radius: 1vw;
+    box-shadow:1vw 1vw 1vw;
+  }
+
+    .btn a {text-decoration: none; color: black;}
+
+a:hover {
+    color: white;}
+
+    .container {
+        max-width: 1100px;
+       margin: 30px auto; 
+       }
+
+.lks {display: flex; padding: 40px; 
+    /* align-items: center; */
+justify-content: center;
+}
+
+.fa-facebook, .fa-square-twitter, .fa-instagram, .fa-weixin, .fa-square-whatsapp {
+    font-size: 70px; color: darkmagenta;}
+
+.phone, .add {
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+
+.add {padding-bottom: 40px;}
+
+h1, h3, h4{font-size: 5vw; color: darkmagenta;
+    font-family: 'Times New Roman', Times, serif;}
+
+
+.fa-phone, .fa-envelope, .fa-location-dot {
+    font-size: 5vw; color: darkmagenta; }
+
+ h1, .fa-phone {transform: translate(-50px);}
+ h4, .fa-envelope {transform: translate(50px);} 
+
+.p {font-size: 70px; color: darkmagenta;}

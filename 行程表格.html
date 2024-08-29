@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./行程表格.css"/>
+    <title>Document</title>
+  </head>
+  <header>
+    <i class="fa-solid fa-dolly"></i>
+    <h2>周氏(香港)專業本地遊</h2>
+    <ul class="lang">
+      <li><a href="#">中文</a></li>
+      <li><a href="#">日文</a></li>
+      <li><a href="#">ENGLISH</a></li>
+    </ul>
+  </header>
+  <div class="page-alt">
+    <button type="link" class="btn">
+      <a href="./index.html"> 首   頁</a>
+      </button>
+    <button type="link" class="btn">
+      <a href="./推介.html"> 推   介</a>
+    </button>
+    <button type="link" class="btn">
+      <a href="./行程選項.html"> 行 程 選 項</a>
+    </button>
+    <button type="link" class="btn">
+      <a href="./聯絡我們.html"> 聯 絡 我 們</a>
+    </button>
+  </div>
+  <body>
+    <div class="form">
+       <label for="name">稱  呼:</label>
+        <input type="text" id="name" placeholder="請輸入您的姓名" />
+ 
+        <label for="phone">電  話:</label>
+        <input type="tel" id="phone" placeholder="請輸入您的電話號碼"  />
+      
+        <label for="email">電  郵:</label>
+       <input type="email" id="email" placeholder="請輸入您的電子郵件" />
+    </div>
+  </body>
+
+<div class="topic item-grid">
+  <div class="item item-1">
+    行程選項
+  </div>
+  <div class="item item-2">
+    人  數
+  </div>
+  <div class="item item-3">
+    日  數</div>
+  <div class="item item-4">
+    出發日期
+  </div>
+  <div class="item item-5">
+    <i class="fa-solid fa-check"></i>可選多項
+  </div>
+
+
+
+  <div class="item item-6">
+    <h1>古 蹟 探 索</h1>
+  </div>
+  <div class="item item-7">
+    <select name="persons" id="persons">
+      <option value="1人">暫不考慮</option>
+      <option value="1人">1人</option>
+      <option value="2人">2人</option>
+      <option value="3人">3人</option>
+      <option value="4人">4人</option>
+      <option value="5人">5人</option>
+      <option value="6人">6人</option>
+      <option value="多於6人">多於6人</option>
+      </select> 
+  </div>
+  <div class="item item-8">
+<select name="days" id="days">
+<option value="1人">暫不考慮</option>
+<option value="1日">1日</option>
+<option value="2日">2日</option>
+<option value="3日">3日</option>
+<option value="4日">4日</option>
+<option value="5日">5日</option>
+<option value="6日">6日</option>
+<option value="7日">7日</option>
+<option value="多於7日">多於7日</option>
+</select> 
+  </div>
+  <div class="item item-9">
+       <label for="date"></label>
+      <input type="date" name="date" id="date"/>      
+  </div>
+  <div class="item item-10"><br>
+    <i class="fa-solid fa-down-long icon glow"></i><br><br><br><br>
+    <i class="fa-solid fa-down-long"></i><br><br><br><br>
+    <i class="fa-solid fa-down-long"></i><br><br>
+    <input type="submit" value="提交查詢" /><br><br>
+    <i class="fa-solid fa-up-long"></i><br><br><br><br>
+    <i class="fa-solid fa-up-long"></i><br><br><br><br>
+    <i class="fa-solid fa-up-long"></i>
+    <a href="#" ></a>
+  </div>
+  <div class="item item-11">
+    <h1>離 島 風 情</h1>
+  </div>
+  <div class="item item-12">
+    <select name="persons" id="persons">
+      <option value="1人">暫不考慮</option>
+      <option value="1人">1人</option>
+      <option value="2人">2人</option>
+      <option value="3人">3人</option>
+      <option value="4人">4人</option>
+      <option value="5人">5人</option>
+      <option value="6人">6人</option>
+      <option value="多於6人">多於6人</option>
+      </select> 
+  </div>
+  <div class="item item-13">
+    <select name="days" id="days">
+      <option value="1人">暫不考慮</option>
+      <option value="1日">1日</option>
+      <option value="2日">2日</option>
+      <option value="3日">3日</option>
+      <option value="4日">4日</option>
+      <option value="5日">5日</option>
+      <option value="6日">6日</option>
+      <option value="7日">7日</option>
+      <option value="多於7日">多於7日</option>
+      </select> 
+  </div>
+  <div class="item item-14"> 
+    <label for="date"></label>
+    <input type="date" name="date" id="date"/></div>
+  <div class="item item-15">
+  <h1>城 市 觀 光</h1>
+  </div>
+  <div class="item item-16">
+    <select name="persons" id="persons">
+      <option value="1人">暫不考慮</option>
+      <option value="1人">1人</option>
+      <option value="2人">2人</option>
+      <option value="3人">3人</option>
+      <option value="4人">4人</option>
+      <option value="5人">5人</option>
+      <option value="6人">6人</option>
+      <option value="多於6人">多於6人</option>
+      </select> 
+  </div>
+  <div class="item item-17">
+    <select name="days" id="days">
+      <option value="1人">暫不考慮</option>
+      <option value="1日">1日</option>
+      <option value="2日">2日</option>
+      <option value="3日">3日</option>
+      <option value="4日">4日</option>
+      <option value="5日">5日</option>
+      <option value="6日">6日</option>
+      <option value="7日">7日</option>
+      <option value="多於7日">多於7日</option>
+      </select> 
+  </div>
+  <div class="item item-18">
+    <label for="date"></label>
+    <input type="date" name="date" id="date"/>
+  </div>
+  <div class="item item-19">
+    <h1>美 食 享 樂</h1>
+  </div>
+  <div class="item item-20">
+    <select name="persons" id="persons">
+      <option value="1人">暫不考慮</option>
+      <option value="1人">1人</option>
+      <option value="2人">2人</option>
+      <option value="3人">3人</option>
+      <option value="4人">4人</option>
+      <option value="5人">5人</option>
+      <option value="6人">6人</option>
+      <option value="多於6人">多於6人</option>
+      </select> 
+  </div>
+  <div class="item item-21">
+    <select name="days" id="days">
+      <option value="1人">暫不考慮</option>
+      <option value="1日">1日</option>
+      <option value="2日">2日</option>
+      <option value="3日">3日</option>
+      <option value="4日">4日</option>
+      <option value="5日">5日</option>
+      <option value="6日">6日</option>
+      <option value="7日">7日</option>
+      <option value="多於7日">多於7日</option>
+      </select> 
+  </div>
+  <div class="item item-22"> 
+    <label for="date"></label>
+    <input type="date" name="date" id="date"/></div>
+  <div class="item item-23">
+    <h1>夜 遊 觀 光</h1>
+  </div>
+  <div class="item item-24">
+    <select name="persons" id="persons">
+      <option value="1人">暫不考慮</option>
+      <option value="1人">1人</option>
+      <option value="2人">2人</option>
+      <option value="3人">3人</option>
+      <option value="4人">4人</option>
+      <option value="5人">5人</option>
+      <option value="6人">6人</option>
+      <option value="多於6人">多於6人</option>
+      </select> 
+  </div>
+  <div class="item item-25">
+    <select name="days" id="days">
+    <option value="1人">暫不考慮</option>
+    <option value="1日">1日</option>
+    <option value="2日">2日</option>
+    <option value="3日">3日</option>
+    <option value="4日">4日</option>
+    <option value="5日">5日</option>
+    <option value="6日">6日</option>
+    <option value="7日">7日</option>
+    <option value="多於7日">多於7日</option>
+    </select> 
+  </div>
+  <div class="item item-26">
+    <label for="date"></label>
+    <input type="date" name="date" id="date"/>
+  </div>
+  <div class="item item-27">
+    <h1>樂 園 暢 玩</h1>
+  </div>
+  <div class="item item-28">
+    <select name="persons" id="persons">
+      <option value="1人">暫不考慮</option>
+      <option value="1人">1人</option>
+      <option value="2人">2人</option>
+      <option value="3人">3人</option>
+      <option value="4人">4人</option>
+      <option value="5人">5人</option>
+      <option value="6人">6人</option>
+      <option value="多於6人">多於6人</option>
+      </select> 
+  </div>
+  <div class="item item-29">
+    <select name="days" id="days">
+      <option value="1人">暫不考慮</option>
+      <option value="1日">1日</option>
+      <option value="2日">2日</option>
+      <option value="3日">3日</option>
+      <option value="4日">4日</option>
+      <option value="5日">5日</option>
+      <option value="6日">6日</option>
+      <option value="7日">7日</option>
+      <option value="多於7日">多於7日</option>
+      </select> 
+  </div>
+  <div class="item item-30">
+    <label for="date"></label>
+    <input type="date" name="date" id="date"/>
+  </div>
+  <div class="item item-31">
+    <h1>自 然 面 貌</h1>
+  </div>
+  <div class="item item-32">
+    <select name="persons" id="persons">
+      <option value="1人">暫不考慮</option>
+      <option value="1人">1人</option>
+      <option value="2人">2人</option>
+      <option value="3人">3人</option>
+      <option value="4人">4人</option>
+      <option value="5人">5人</option>
+      <option value="6人">6人</option>
+      <option value="多於6人">多於6人</option>
+      </select> 
+  </div>
+  <div class="item item-33">
+    <select name="days" id="days">
+    <option value="1人">暫不考慮</option>
+    <option value="1日">1日</option>
+    <option value="2日">2日</option>
+    <option value="3日">3日</option>
+    <option value="4日">4日</option>
+    <option value="5日">5日</option>
+    <option value="6日">6日</option>
+    <option value="7日">7日</option>
+    <option value="多於7日">多於7日</option>
+    </select> </div>
+  <div class="item item-34">
+    <label for="date"></label>
+    <input type="date" name="date" id="date"/>
+  </div>
+  <div class="item item-35">
+    <h1>購 物 天 堂</h1>
+  </div>
+  <div class="item item-35=6">
+    <select name="persons" id="persons">
+    <option value="1人">暫不考慮</option>
+    <option value="1人">1人</option>
+    <option value="2人">2人</option>
+    <option value="3人">3人</option>
+    <option value="4人">4人</option>
+    <option value="5人">5人</option>
+    <option value="6人">6人</option>
+    <option value="多於6人">多於6人</option>
+    </select> 
+  </div>
+  <div class="item item-37">
+    <select name="days" id="days">
+      <option value="1人">暫不考慮</option>
+      <option value="1日">1日</option>
+      <option value="2日">2日</option>
+      <option value="3日">3日</option>
+      <option value="4日">4日</option>
+      <option value="5日">5日</option>
+      <option value="6日">6日</option>
+      <option value="7日">7日</option>
+      <option value="多於7日">多於7日</option>
+      </select> 
+  </div>
+  <div class="item item-38">
+    <label for="date"></label>
+    <input type="date" name="date" id="date"/>
+  </div>
+</div>
+
+<footer>
+<h3>本公司盡快回覆</h3>
+</footer>
